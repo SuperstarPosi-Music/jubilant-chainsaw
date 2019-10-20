@@ -14,4 +14,4 @@ jobs:
     - name: Run a multi-line script
       run: |
         echo I am SuperstarPosi
-        echo test, and deploy your project.
+        echo tested and verified. 
