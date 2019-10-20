@@ -1,0 +1,17 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world oh!
+    - name: Run a multi-line script
+      run: |
+        echo I am SuperstarPosi
+        echo test, and deploy your project.
